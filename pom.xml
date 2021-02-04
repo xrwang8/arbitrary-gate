@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>gate-spring-boot-starter</module>
+        <module>gate-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -37,6 +38,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
 
     <build>
         <plugins>
